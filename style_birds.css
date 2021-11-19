@@ -7,9 +7,10 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
     color: white;
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     background-color: #1A1A2E;
     
 }
@@ -17,28 +18,56 @@ body {
 .heading {
     text-align: center;
     font-weight: bold;
+    font-size: xx-large;
+    letter-spacing: 5px;
 }
 
 .tableContainer {
     background-color: #25304D;
-    width: 80%;
-    margin: 50px auto;
+    width: 1500px;
+    padding: 30px;
+    margin: 30px auto;
     display: inline;
     display: flex;
     justify-content: space-around;
 }
 
 .card {
-    width: 310px;
-    height: 600px;
-    background-color: #3C4763;
-    border: 1px solid black;
-    text-align: center;
+    width: 300px;
+    margin: 20px;
+    padding: 0px;
     float: left;
+    background-color: #3C4763;
+    outline: 2px solid #1A1A2E;
+    text-align: left;
+    
+}.image {
+    width: 100%;
+    /* border-bottom: 2px solid #1A1A2E; */
+
 }
 
-.image {
-    /* border: 1px solid greenyellow; */
-    width: 300px;
+.text {
     height: 200px;
+    font-size: larger;
+    margin: 30px 20px 50px 20px;
+    text-align: justify;
+    
+}
+
+.button {
+    /* width: 80%; */
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    /* margin: 30px; */
+    margin: 30px 20px 30px 20px;
+    padding: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: whitesmoke;
 }
