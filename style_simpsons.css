@@ -17,6 +17,7 @@ body {
     text-align: center;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .box {
@@ -28,7 +29,7 @@ body {
     background-color: whitesmoke;
     /* outline: 1px solid grey; */
     border-radius: 3px;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 3px 3px 3px rgb(58, 53, 53);
 }
 
 .box h3 {
@@ -62,8 +63,8 @@ body {
     background-color: #E77C68;
     /* outline: none; */
     /* box-shadow: none; */
-    margin: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
+
 }
 
 .image {
@@ -71,4 +72,8 @@ body {
 }
 
 .logo {
+    margin-top: 30px;
+    /* display: inline-flex;
+    flex-flow: row;
+    width: 40px; */
 }
