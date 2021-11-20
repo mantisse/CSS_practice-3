@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1A1A2E;
-    
+
 }
 
 .heading {
@@ -40,8 +40,10 @@ body {
     background-color: #3C4763;
     outline: 2px solid #1A1A2E;
     text-align: left;
-    
-}.image {
+
+}
+
+.image {
     width: 100%;
     /* border-bottom: 2px solid #1A1A2E; */
 
@@ -52,7 +54,7 @@ body {
     font-size: larger;
     margin: 30px 20px 50px 20px;
     text-align: justify;
-    
+
 }
 
 .button {
