@@ -10,10 +10,11 @@ body {
 }
 
 .tableBox {
-    width: 80%;
+    width: 1200px;
     height: 800px;
-    /* border: 1px solid black; */
-    margin: 100px auto;
+    border: 1px solid black;
+    margin: 50px auto;
+    text-align: center;
     display: flex;
     flex-flow: row wrap;
 }
@@ -25,7 +26,7 @@ body {
     text-align: left;
     margin: 30px;
     background-color: whitesmoke;
-    outline: 1px solid grey;
+    /* outline: 1px solid grey; */
     border-radius: 3px;
     box-shadow: 3px 3px 3px black;
 }
@@ -59,12 +60,15 @@ body {
 
 .boxTitle {
     background-color: #E77C68;
-    outline: none;
-    box-shadow: none;
-    
+    /* outline: none; */
+    /* box-shadow: none; */
+    margin: auto;
+    overflow: hidden;
 }
 
-.image {}
+.image {
+    
+}
 
 .logo {
 }
